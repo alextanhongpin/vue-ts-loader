@@ -24,6 +24,7 @@ import * as Vuex from 'vuex'
 
 import * as types from '../store/products-types'
 
+
 export default {
   computed: Vuex.mapGetters({
     products: types.GET_PRODUCTS
